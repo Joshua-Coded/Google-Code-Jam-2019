@@ -1,0 +1,2 @@
+My Approach
+Adjacent products must have a unique common divisor that is a prime, unless that these products are the same. To avoid the same-value scenario when calculating the common divisor, any duplicates are moved to another list to be considered later. The first common divisor is retrieved using Euclidean algorithm, and once one prime is got, the rest can be got via simple division. A list of primes is obtained, and the unique ones are sorted to establish the prime-letter correspondence. The only thing left is to replace the primes with the letters.
